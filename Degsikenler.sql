@@ -1,12 +1,13 @@
-/* Formatted on 1/03/2023 14:41:05 (QP5 v5.391) */
-SET SERVEROUTPUT ON;
+Deðiþken Tipleri ve Ýlk Deðer Atama
 
-DECLARE
-    v_maas   NUMBER;
-BEGIN
-    SELECT maas into v_maas
-      FROM personel
-     WHERE personel_id = 5006;
-     
-     dbms_output.put_line(v_maas);
-END;
+idintifer [CONSTANT] datatype [NOT NULL] [:= | DEFAULT expr];
+
+Örnekler
+
+v_maas       number(8,2);
+v_tarih      date;
+v_sehir1     varchar2(30) :='Ankara';
+v_sehir2     varchar2(30) default 'izmir';
+v_if         boolean := True;
+v_kod        number(2) not null := 30;
+c_seri       constant number :=2233;

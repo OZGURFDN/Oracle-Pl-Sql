@@ -7,5 +7,5 @@ BEGIN
     SELECT maas into v_maas
       FROM personel
      WHERE personel_id = 5006;
-     dbms_output.put_line(v_maas);
-END;
+     dbms_output.put_line('Personel Maaşı ' || v_maas);
+END; 

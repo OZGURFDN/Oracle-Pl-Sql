@@ -9,4 +9,3 @@ BEGIN
      WHERE personel_id = 5006;
      dbms_output.put_line(v_maas);
 END;
-/* #test */

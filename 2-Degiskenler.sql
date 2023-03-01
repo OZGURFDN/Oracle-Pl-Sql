@@ -11,3 +11,4 @@ v_sehir2     varchar2(30) default 'izmir';
 v_if         boolean := True;
 v_kod        number(2) not null := 30;
 c_seri       constant number :=2233;
+

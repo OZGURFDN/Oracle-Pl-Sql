@@ -8,4 +8,4 @@ BEGIN
       FROM personel
      WHERE personel_id = 5006;
      dbms_output.put_line('Personel Maaşı ' || v_maas);
-END; 
+END;
